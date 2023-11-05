@@ -1,0 +1,11 @@
+server:
+  port: 0
+  shutdown: graceful
+
+spring:
+  cloud:
+    config:
+      allow-override: true
+      override-none: true
+    refresh:
+      refreshable: false
